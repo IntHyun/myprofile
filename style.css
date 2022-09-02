@@ -1,0 +1,122 @@
+body {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: initial;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.wrapper {
+  width: 750px;
+  margin: 30px auto;
+}
+
+.header {
+  background-image: url(images/cover02.png);
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+
+.header .profile {
+  border-radius: 100px/50px;
+  border: 5px solid white;
+}
+
+.profile {
+  width: 220px;
+}
+
+.header .name {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.header .job {
+  border-top: 3px solid white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.content {
+  background-color: #ddd;
+  padding: 1px;
+}
+
+.section {
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.section.info-icon {
+  background-image: url(images/icon-information.png);
+}
+
+.section.skill-icon {
+  background-image: url(images/icon-skills.png);
+}
+
+.info,
+.skill {
+  color: plum;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.my-skill {
+  margin-bottom: 3px;
+}
+
+.footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer .link {
+  display: inline-block;
+  padding: 2px 20px;
+  margin: 3px;
+  border: 2px solid;
+  border-radius: 40px;
+  color: #222;
+}
+
+.link.black {
+  color: black;
+}
+
+.link.blue {
+  color: dodgerblue;
+}
+
+.link.purple {
+  color: violet;
+}
